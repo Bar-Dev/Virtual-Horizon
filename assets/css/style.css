@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/*------------------------General------------------------*/
+
+body {
+    padding-top: 75px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(85, 85, 85);
+}
+
+#navbar-colors {
+    background-color: #002e5d !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
