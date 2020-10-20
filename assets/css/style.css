@@ -21,6 +21,21 @@ h1 {
     padding-left: 30px;
 }
 
+.text-box-main {
+    top: 80%;
+    left: 50%;
+    color: #1F1F58;
+    transform: translate(-50%, -50%);
+    position: absolute;  
+    width: 50%;  
+    margin: auto; 
+    text-align: center;
+    background-color: #fff;
+    height: 7%;
+    font-size: 3vw;
+}
+
+
 .pimg1, .pimg2, .pimg3{
     position: relative;
     opacity: 0.85;
@@ -89,15 +104,6 @@ h1 {
     .pimg1, .pimg2, .pimg3{
         background-attachment: scroll;
     }
-}
-
-.pimg1 h2 {
-    position: absolute;
-    font-size: 45px;
-    top: 80%;
-    left: 50%;
-    color: #1F1F58;
-    transform: translate(-50%, -50%);    
 }
 
 #navbar-colors {
