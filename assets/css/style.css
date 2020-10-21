@@ -11,28 +11,61 @@ body, html {
     color: #1f1f58;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 400;
 }
 
+h3 {
+    margin: 15px 0px 15px 0px;
+}
+
 .navbar h1 {
     padding-left: 30px;
 }
 
-.text-box-main {
+.text-box-outer {
     top: 80%;
     left: 50%;
     color: #1F1F58;
-    transform: translate(-50%, -50%);
-    position: absolute;  
-    width: 50%;  
-    margin: auto; 
+    transform: translate(-50%, -50%);  
+    width: 48vw;  
     text-align: center;
-    background-color: #fff;
-    height: 7%;
+    background-color: rgba(255, 255, 255, 0.8);
     font-size: 3vw;
+    border-radius: 37.5px;
+    padding: 20px 20px 20px 20px;
+    height: 9vh;
+    position: absolute;
+}
+
+.text-box {
+    position:absolute;
+    top: 50%;
+    left:50%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.real-estate-box {
+    top: 50%;
+    left: 50%;
+    color: #1F1F58;
+    transform: translate(-50%, -50%);  
+    width: 48vw;  
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 3vw;
+    border-radius: 37.5px;
+    padding: 20px 20px 20px 20px;
+    height: 9vh;
+    position: absolute;
 }
 
 
@@ -64,7 +97,7 @@ h1 {
 
 .section {
     text-align: center;
-    padding: 50px 80px;
+    padding: 30px 70px;
 }
 
 .section-light{
@@ -73,7 +106,7 @@ h1 {
 }
 
 .section-dark{
-    background-color: #282e34;
+    background-color: #1F1F58;
     color: #ddd
 }
 
@@ -88,12 +121,6 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
-#main-image-text {
-    position: absolute;
-    width: 100%;
-    margin-top: 30px;
-    text-align: center;
-}
 
 .ptext {
     text-align: center;
@@ -114,5 +141,25 @@ h1 {
 
 .navbar-dark .navbar-nav .nav-link {
     color: #777777;
+}
+
+.text-parent {
+    width: 100%;
+    text-align: center;
+    
+}
+
+.text-child {
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.text-child h4 {
+    text-transform: uppercase;
+}
+
+.text-child img {
+    float: left;
 }
 
