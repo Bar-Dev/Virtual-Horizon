@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
+/* ------- General ------- */
 
 body, html {
     height: 100%;
@@ -26,8 +27,33 @@ h3 {
     margin: 15px 0px 15px 0px;
 }
 
+/* ------- Navbar ------- */
+
 .navbar h1 {
     padding-left: 30px;
+}
+
+#navbar-colors {
+    background-color: #1F1F58 !important;
+    border-top: 10px solid #E7EFC5;
+    border-bottom: 10px solid #E7EFC5;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #777777;
+}
+
+/* ------- Image General ------- */
+
+.pimg1, .pimg2, .pimg3, .pimg4{
+    position: relative;
+    opacity: 0.85;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* Setting it fixed created parallax */
+    background-attachment: fixed;
 }
 
 .text-box-outer {
@@ -43,6 +69,10 @@ h3 {
     padding: 20px 20px 20px 20px;
     height: 9vh;
     position: absolute;
+}
+
+.real-text-box h3 {
+    margin: 0;
 }
 
 .text-box {
@@ -68,53 +98,12 @@ h3 {
     position: absolute;
 }
 
-
-.pimg1, .pimg2, .pimg3{
-    position: relative;
-    opacity: 0.85;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    /* Setting it fixed created parallax */
-    background-attachment: fixed;
-}
+/* ------ First Image ------- */
 
 .pimg1{
     background-image:url('../images/hero-image.jpeg');
     min-height: 750px;
 }
-
-.pimg2{
-    background-image:url('../images/hero-living.jpg');
-    min-height: 500px;
-}
-
-.pimg3{
-    background-image:url('../images/hero-living.jpg');
-    min-height: 500px;
-}
-
-.section {
-    text-align: center;
-    padding: 30px 150px 80px 150px;
-}
-
-.section-light{
-    background-color: #f4f4f4;
-    color: #666
-}
-
-.section-dark{
-    background-color: #1F1F58;
-    color: #ddd
-}
-
-.section-mid {
-    background-color: #a9bbb1;
-    color: #222157   
-}
-
 
 .logo-box {
     position: absolute;
@@ -127,26 +116,41 @@ h3 {
     transform: translate(-50%, -50%);
 }
 
-
 .ptext {
     text-align: center;
     padding-top: 40px;
 }
 
-@media(max-width: 568px){
-    .pimg1, .pimg2, .pimg3{
-        background-attachment: scroll;
-    }
+/* ------ Second Image ------- */
+
+.pimg2{
+    background-image:url('../images/hero-living.jpg');
+    min-height: 500px;
 }
 
-#navbar-colors {
-    background-color: #1F1F58 !important;
-    border-top: 10px solid #E7EFC5;
-    border-bottom: 10px solid #E7EFC5;
+/* ------ Third Image ------- */
+
+.pimg3{
+    background-image:url('../images/hotel-room.jpg');
+    min-height: 500px;
 }
 
-.navbar-dark .navbar-nav .nav-link {
-    color: #777777;
+/* ------ Fourth Image ------- */
+
+.pimg4{
+    background-image:url('../images/vr-woman.png');
+    min-height: 700px;
+}
+
+/* ------ Section General ------- */
+
+.section {
+    text-align: center;
+    padding: 30px 300px 60px 300px;
+}
+
+.image-margin {
+    margin-right: 15px;
 }
 
 .text-parent {
@@ -189,3 +193,284 @@ h3 {
      width: 100%;
      height: 100%;
  }
+
+/* ------ First Section ------- */
+
+.section-light{
+    background-color: #f4f4f4;
+    color: #666
+}
+
+/* ------ Second Section ------- */
+
+.section-dark{
+    background-color: #1F1F58;
+    color: #ddd
+}
+
+#image-margin-house {
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+/* ------ Third Section ------- */
+
+.section-mid {
+    background-color: #f1f7f3;
+    color: #222157   
+}
+
+.jumbo {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    margin: 0 auto;
+}
+
+.jumbotron {
+    background-color: rgba(241, 247, 243, 0.8);
+    padding: 2rem 2rem;
+    margin-bottom: 0px;
+}
+
+.display-4 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: inherit;
+}
+
+/* ------ Footer ------- */
+
+ footer {
+    background-color: #1F1F58 !important;
+    border-top: 10px solid #E7EFC5;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+
+.pdf-lists i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.contact-list button {
+    text-align: left;
+    color: #fff;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.pdf-lists i:hover {
+    color: #2F0147;
+}
+
+#bike-shop-list {
+    margin: 0px 0px 3px 0px;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #1F1F58;
+    background: #E7EFC5;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: rgb(255, 255, 255);
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+#retail, #auctioneers, #hotels {
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+#footer-details {
+    padding: 20px;
+}
+
+#footer-middle {
+    text-align: left;
+    padding-right: 150px;
+}
+
+#footer-right {
+    text-align: right;
+}
+
+#footer-right h5 {
+    text-align: right;
+}
+
+.social-links {
+    text-align: right;
+}
+
+.social-link-spacing {
+    display: inline-block;
+}
+
+/*------------------------ Surveys Main Image ------------------------*/
+
+.home-image {
+    height: auto;
+    max-width: 100%;
+    animation-name: home-zoom;
+    animation-duration: 8s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes home-zoom {
+    from {
+        transform: scale(1.2);
+    }
+    to {
+        transform: scale(1.0);
+    }
+}
+
+.display-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.box{
+        position: relative;
+    }
+
+.box .info-box {
+    position: absolute;
+    z-index: 1;
+    margin: 0;
+    right: 40px;
+    bottom: 40px; 
+    width: 260px;
+    height: 260px;
+    padding: 10px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    }
+
+.text-box-color {
+    background-color: rgba(185, 190, 165, 0.8);
+    }
+
+
+/* ----- Media Queries ------ */
+
+@media(max-width: 1007px) {
+    .social-link-spacing {
+    display: inline-block;
+    margin-top: 5px;
+    }
+    }
+
+@media(max-width: 992px) {
+        #footer-middle {
+    text-align: left;
+    padding-left: 0px;
+    }
+
+    .social-link-spacing {
+    text-align: right;
+    }
+    }
+
+
+@media(max-width: 767px) {
+        #footer-middle {
+    text-align: center;
+    padding-right: 25px;
+    }
+
+    .social-link-spacing {
+    display: block;
+    margin-top: 5px;
+    text-align: right;
+    }
+
+    .social-links {
+    margin-bottom: 5px;
+    padding-bottom: 0px;
+    }
+
+    #footer-right h5 {
+    text-align: right;
+    }   
+    }
+
+
+@media(max-width: 574px) {
+        .social-link-spacing {
+    display: inline-block;
+    margin-top: 0px;
+    }
+
+    #footer-right {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 0px;
+    }
+
+    #footer-middle {
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 20px;
+    }
+
+    #footer-right h5 {
+    text-align: left;
+    }
+
+    .social-links {
+    text-align: left;
+    }
+    }
+
+@media(max-width: 568px){
+    .pimg1, .pimg2, .pimg3, .pimg4{
+        background-attachment: scroll;
+    }
+}
