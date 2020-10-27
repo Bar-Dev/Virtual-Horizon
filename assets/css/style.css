@@ -4,7 +4,7 @@
 
 /* ------- General ------- */
 
-body, html {
+body {
     height: 100%;
     margin: 0;
     font-size: 16px;
@@ -99,11 +99,27 @@ h3 {
     position: absolute;
 }
 
+.hospitality-box {
+    top: 50%;
+    left: 50%;
+    color: #1F1F58;
+    transform: translate(-50%, -50%);  
+    width: 48vw;  
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 3vw;
+    border-radius: 37.5px;
+    padding: 20px 20px 20px 20px;
+    height: 9vh;
+    position: absolute;
+}
+
 /* ------ First Image ------- */
 
 .pimg1{
     background-image:url('../images/hero-image.jpeg');
-    min-height: 750px;
+    min-height: 650px;
+    margin-top: 102px;
 }
 
 .logo-box {
@@ -158,11 +174,12 @@ h3 {
 
 .section {
     text-align: center;
-    padding: 30px 300px 60px 300px;
+    padding: 30px 260px 60px 260px;
 }
 
 .image-margin {
     margin-right: 15px;
+    color: #1f1f58;
 }
 
 .text-parent {
@@ -244,7 +261,6 @@ h3 {
     padding: 2rem 2rem;
     margin-bottom: 0px;
     width: 50vw;
-    margin-top: 40px;
 }
 
 .jumbo-one {
@@ -412,30 +428,41 @@ img {
 }
 
 .text-box-color {
-    background-color: rgba(55, 46, 175, 0.8);
+    background-color: rgba(31, 31, 88, 0.8);
     }
 
 
 /* ----- Section One Surveys ------ */
 
 .section-height {
-    min-height: 500px;
+    padding-bottom: 30px;
 }
 
-.survey-text-one {
+.section-height-two {
+    background-color: #E7EFC5;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section-height-three {
+    padding-bottom: 50px;
+}
+
+.survey-retail {
     font-family: "Raleway", sans-serif;
     font-weight: 600;
     font-size: 60px;
     text-transform: uppercase;
     margin-top: 60px;
+    line-height: 1em;
 }
 
-.survey-text-two {
+.survey-retail-two {
     font-family: "Raleway", sans-serif;
     font-weight: 300;
     font-size: 60px;
     text-transform: uppercase;
-    margin-top: 10px;
+    line-height: 1em;
 }
 
 
@@ -485,21 +512,55 @@ animation: fadeIn ease 5s;
 
 
 /* ----- Media Queries ------ */
+@media(max-width: 1200px) {
+    .social-link-spacing {
+    display: inline-block;
+    margin-top: 5px;
+    }
+    .section {
+    text-align: center;
+    padding: 30px 200px 60px 200px;
+    }
+    }
 
-@media(max-width: 1007px) {
+
+@media(max-width: 1024px) {
     .social-link-spacing {
     display: inline-block;
     margin-top: 5px;
     }
     .pimg1 {
     min-height: 600px;
+    min-width: 100%;
+    }
+    h1 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    }
+    .navbar h1 {
+    font-size: 30px;
+    }
+    .section {
+    text-align: center;
+    padding: 30px 100px 60px 100px;
+    }
+    .pimg1{
+    margin-top: 90px;
     }
     }
+
+
 
 @media(max-width: 992px) {
         #footer-middle {
     text-align: left;
     padding-left: 0px;
+    }
+
+    .pimg1 {
+    min-height: 500px;
+    min-width: 100%;
     }
 
     .social-link-spacing {
@@ -512,6 +573,11 @@ animation: fadeIn ease 5s;
         #footer-middle {
     text-align: center;
     padding-right: 25px;
+    }
+
+    .pimg1 {
+    min-height: 400px;
+    min-width: 100%;
     }
 
     .social-link-spacing {
@@ -564,3 +630,73 @@ animation: fadeIn ease 5s;
         background-attachment: scroll;
     }
 }
+
+@media(max-width: 480px) {
+    .pimg1 {
+    min-height: 300px;
+    min-width: 100%;
+    }
+    .navbar h1 {
+    font-size: 24px;
+    padding-left: 15px;
+    margin-bottom: 0px;
+    }
+    .pimg1 {
+    margin-top: 76px;
+    }
+    .col-12 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-bottom: 2px !important;
+    }
+    .section-light img {
+    width: 60vw;
+    height: auto;
+    }
+    .section {
+    text-align: center;
+    padding: 20px 40px 40px 40px;
+    }
+    .section-light h3 {
+    font-size: 5vw;
+    margin: 8px 0px;
+    }
+    .pimg2 {
+    min-height: 250px;
+    }
+    .real-estate-box {
+    font-size: 4vw;
+    height: 10vw;
+    font-weight: 700;
+    }
+    #image-margin-house {
+    margin-right: 10px;
+    margin-top: 15px;
+    width: 70px;
+    height: 70px;
+    }
+    .section-dark h3 {
+    font-size: 5vw;
+    }
+    .text-child h4 {
+    font-size: 1rem;
+    }
+    .text-child h5 {
+    font-size: 0.9rem;
+    }
+    .hospitality-box {
+    font-size: 3.5vw;
+    height: 10vw;
+    font-weight: 700;
+    width: 60vw;
+    }
+    .pimg3 {
+    min-height: 250px;
+    }
+    #image-margin {
+    margin-right: 10px;
+    margin-top: 15px;
+    width: 70px;
+    height: 70px;
+    }
+    }
