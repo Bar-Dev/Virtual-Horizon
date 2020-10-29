@@ -556,6 +556,28 @@ animation: fadeIn ease 5s;
     margin-top: 102px;
 }
 
+.contact-image {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+
+.address {
+    width: 500px;
+    height: 250px;
+    background-color: blue;
+}
+
+.form {
+    width: 500px;
+    height: 250px;
+    background-color: black;
+}
+
+.address-form {
+    display: inline-block;
+}
+
 
 /* ----- Media Queries ------ */
 
