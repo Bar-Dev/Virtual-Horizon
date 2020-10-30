@@ -556,26 +556,34 @@ animation: fadeIn ease 5s;
     margin-top: 102px;
 }
 
-.contact-image {
-    width: 500px;
-    height: 500px;
-    background-color: red;
+.contact-content {
+    margin-bottom: 40px;
+    }
+
+.contact-image img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
 }
 
 .address {
     width: 500px;
     height: 250px;
-    background-color: blue;
+    background-color: #E7EFC5;
+    border: 10px solid #1f1f58;
+    color: #1f1f58;
+    padding-left: 20px;
+    font-size: 30px;
+    line-height: 40px;
+    padding-top: 15px;
 }
 
 .form {
     width: 500px;
     height: 250px;
-    background-color: black;
-}
-
-.address-form {
-    display: inline-block;
+    background-color: #1f1f58;
+    border: 10px solid #E7EFC5;
+    margin-top: 40px;
 }
 
 

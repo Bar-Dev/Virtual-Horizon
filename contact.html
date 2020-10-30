@@ -42,10 +42,10 @@
 					<li class="nav-item">
 						<a class="nav-link" href="pricing.html">Pricing</a>
 					</li>
-					<li class="nav-item active">
+					<li class="nav-item">
 						<a class="nav-link" href="app.html">APP</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item active">
 						<a class="nav-link" href="contact.html">Contact Us</a>
 					</li>
 				</ul>
@@ -63,17 +63,31 @@
 					<h1>Contact Us</h1>
 				</div>
 				</div>
-				<div class="row">
-					<div class="col-12 col-md-8 bg-primary text-white">
-						<h2>Main Column</h2>
+				<div class="row contact-content">
+					<div class="col-12 col-md-6 text-white contact-image">
+						<img src="./assets/images/gear-vr.jpg" class="card-img-top" alt="...">
 					</div>
-					<div class="col-12 col-md-4">
+					<div class="col-12 col-md-6">
 						<div class="row px-md-3">
-							<div class="col-12 mb-md-3 bg-dark text-white">
-								Top Secret
+							<div class="col-12 address">
+								Virtual Horizon<br>
+                                5 The Mews<br>
+                                Main St<br>
+                                Dungarvan<br>
+                                Co. Waterford
 							</div>
-							<div class="col-12 bg-warning">
-								Bottom Secret
+							<div class="col-12 mb-md-3 form">
+								<div class="contact-form">
+                                    <form id="contact-form" method="post" action="contact-form-handler.php">
+                                    <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+                                    <br>
+                                    <input name="email" type="email" class="form-control" placeholder="Your Email" required>
+                                    <br>
+                                    <textarea name="message" class="form-control" placeholder="Message" row="3" required></textarea>
+                                    <br>
+                                    <input type="submit" class="form-control submit" value="SEND MESSAGE">
+                                    </form>
+								</div>
 							</div>
 						</div>
 					</div>
