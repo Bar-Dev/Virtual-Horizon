@@ -586,6 +586,28 @@ animation: fadeIn ease 5s;
     margin-top: 40px;
 }
 
+.name-form, .email-form, .message-form {
+    width: 100%;
+    border-radius: 5px;
+    border-width: 0px;
+    border-style: none;
+    margin-top: 10px;
+    padding-left: 20px;
+    background-color: #E7EFC5;
+    color: #1F1F58 !important;
+}
+
+.message-form {
+    height: 82px;
+}
+
+.form-control {
+    background-color: #E7EFC5;
+    width: 50%;
+    margin: 0 auto;
+    color: #1F1F58;
+}
+
 
 /* ----- Media Queries ------ */
 
@@ -637,6 +659,26 @@ animation: fadeIn ease 5s;
     .text-box-outer {
     font-size: 2.8vw;
     }
+    /* Contact Us */
+    .address {
+    height: 190px;
+    background-color: #E7EFC5;
+    border: 10px solid #1f1f58;
+    color: #1f1f58;
+    padding-left: 20px;
+    font-size: 25px;
+    line-height: 30px;
+    padding-top: 12px;
+    }
+
+    .form {
+    width: 500px;
+    height: 250px;
+    background-color: #1f1f58;
+    border: 10px solid #E7EFC5;
+    margin-top: 10px;
+    }
+
     }
 
 
@@ -803,7 +845,25 @@ animation: fadeIn ease 5s;
     font-size: 1.25rem !important;
     margin-top: 5px;
     }
+
+    .address {
+    height: 140px;
+    background-color: #E7EFC5;
+    border: 10px solid #1f1f58;
+    color: #1f1f58;
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 12px;
     }
+
+    .contact-image img {
+    width: 370px;
+    height: 400px;
+    overflow: hidden;
+    margin-right: 0px;
+    }
+}
 
 @media(max-width: 767px) {
     .card {
