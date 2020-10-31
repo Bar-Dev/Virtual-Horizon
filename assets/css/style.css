@@ -1084,4 +1084,15 @@ animation: fadeIn ease 5s;
     margin-top: 10px;
     padding-left: 10px;
     }
+    .card {
+    width: 140px !important;
+    height: 200px !important;
+    }/*
+    .col-sm-6 .card {
+    padding: 0px;
+    }*/
+    .card-title {
+    font-size: 1.1rem !important;
+    margin-top: 5px;
+}
 }
