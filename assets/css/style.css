@@ -1094,5 +1094,35 @@ animation: fadeIn ease 5s;
     .card-title {
     font-size: 1.0rem !important;
     margin-top: 5px;
-}
+    }
+    .address {
+    height: 140px;
+    background-color: #E7EFC5;
+    border: 10px solid #1f1f58;
+    color: #1f1f58;
+    padding-left: 15px !important;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 12px;
+    text-align: left !important;
+    }
+    .message-form, .name-form, .email-form {
+    width: 90%;
+    border-radius: 5px;
+    border-width: 0px;
+    border-style: none;
+    margin-top: 10px;
+    padding-left: 10px;
+    background-color: #E7EFC5;
+    color: #1F1F58 !important;
+    }
+    .form-control {
+    background-color: #E7EFC5;
+    width: 70%;
+    margin: 0 auto;
+    color: #1F1F58;
+    }
+    #padding-small {
+    padding-left: 20px;
+    }
 }
