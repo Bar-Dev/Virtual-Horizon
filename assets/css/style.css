@@ -181,8 +181,9 @@ h3 {
     padding: 30px 260px 60px 260px;
 }
 
-.image-margin {
+#image-margin {
     margin-right: 15px;
+    margin-top: 15px;
     color: #1f1f58;
 }
 
@@ -232,6 +233,20 @@ h3 {
 .section-light{
     background-color: #f4f4f4;
     color: #666
+}
+
+#image-margin-retail {
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+#retail-text-color {
+    color: #1F1F58;
+}
+
+.section-light h3 {
+    color: #1F1F58;
+    margin: 10px 0px 10px 0px;
 }
 
 /* ------ Second Section ------- */
@@ -641,7 +656,7 @@ animation: fadeIn ease 5s;
     margin-top: 25px;
     } 
     .text-box-outer {
-    font-size: 2.8vw;
+    font-size: 2.5vw;
     }
     .logo-box {    
     width: 20vw;
