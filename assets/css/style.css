@@ -639,6 +639,17 @@ animation: fadeIn ease 5s;
 
 /* ----- Pricing Page ------ */
 
+.section-height-pricing {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.section-height-pricing-three {
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+
 .pricing-titles h1 {
      font-size: 30px;
      font-weight: 500;
@@ -678,6 +689,7 @@ animation: fadeIn ease 5s;
     justify-content: center;
     padding-top: 2px;
     color: #E7EFC5;
+    margin: 0px 40px;
 }
 
 .pricing-box h3 {
@@ -689,12 +701,23 @@ animation: fadeIn ease 5s;
     width: 100%;
     display: flex;
     position: relative;
-    max-height: 250px;
     min-height: 250px;
     background-color: #1F1F58;
     justify-content: center;
     padding-top: 2px;
     color: #E7EFC5;
+    font-size: 1.9vw;
+}
+
+.pricing-box-three {
+    width: 100%;
+    display: flex;
+    position: relative;
+    background-color: #1F1F58;
+    justify-content: center;
+    padding-top: 2px;
+    color: #E7EFC5;
+    font-size: 1.9vw;
 }
 
 table {
@@ -712,6 +735,31 @@ td, th {
 td {
     padding-top: 25px;
 }
+
+.table-content-one {
+    font-family: "Raleway", sans-serif;
+}
+
+.table-content-two {
+    text-align: center;
+}
+
+.table-content-three {
+    font-size: 2vw;
+}
+
+.table-content-four {
+    font-size: 1.8vw;
+}
+
+.add-on-titles li span {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+#retail-price-box {
+    justify-content: center;
+    }
 
 
 /* ----- Privacy Policy ------ */
@@ -794,6 +842,15 @@ td {
     margin-top: 10px;
     }
 
+    .pricing-box {
+    margin: 0px 30px;
+
+    }
+
+
+    #retail-price-box {
+    justify-content: center;
+    }
     }
 
 
@@ -829,6 +886,11 @@ td {
     }
     }
 
+@media(min-width: 993px) {
+     .replacement-table {
+    display: none;
+     }
+    }
 
 
 @media(max-width: 992px) {
@@ -853,6 +915,35 @@ td {
     .card {
     width: 170px !important;
     height: 225px !important;
+    }
+
+    .replacement-table {
+    width: 100%;
+    display: flex;
+    position: relative;
+    background-color: #1F1F58;
+    justify-content: center;
+    color: #E7EFC5;
+    font-size: 1.9vw;
+    margin-left: 60px;
+    }
+
+    .table-content-four {
+    font-size: 2vw;
+    padding-top: 5px;
+    }
+
+    .pricing-box {
+    display: none;
+    }
+
+    .table-content-three {
+    font-size: 2vw;
+    padding-top: 10px;
+    }
+
+    .table-content-five {
+    text-align: center;
     }
     }
 
@@ -978,6 +1069,16 @@ td {
     overflow: hidden;
     margin-right: 0px;
     }
+
+    .replacement-table {
+    width: 90%;
+    line-height: 20px;
+    }
+
+    .table-content-three {
+    font-size: 2.2vw;
+    padding-top: 0px;
+    }
 }
 
 @media(max-width: 767px) {
@@ -1019,6 +1120,16 @@ td {
     .form {
     margin-top: 40px;
     }
+
+    .table-content-three {
+    font-size: 2.5vw;
+    padding-top: 0px;
+    line-height: 1.2em;
+    }
+
+    .pricing-box-two {
+    min-height: auto;
+    }
     }
 
 @media(max-width: 574px) {
@@ -1057,6 +1168,42 @@ td {
     font-size: 30px;
     font-weight: 700;
     }
+
+    .replacement-table {
+    display: none;
+    }
+
+    .pricing-box {
+    display: flex;
+    position: relative;
+    max-width: 250px;
+    min-width: 250px;
+    max-height: 250px;
+    min-height: 250px;
+    background-color: #1F1F58;
+    justify-content: center;
+    padding-top: 2px;
+    color: #E7EFC5;
+    margin: 0 auto;
+    margin-bottom: 20px !important;
+    }
+
+    .pricing-titles h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 0px;
+    font-family: "Raleway", sans-serif;
+    text-transform: none;
+    margin-bottom: 20px;
+    margin-left: 0px !important;
+    }
+
+    .table-content-three {
+    font-size: 2.8vw;
+    padding-top: 0px;
+    line-height: 1.2em;
+}
+
     }
 
 @media(max-width: 568px){
